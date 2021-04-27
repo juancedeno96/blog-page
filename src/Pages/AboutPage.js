@@ -2,6 +2,8 @@ import React from "react";
 import Title from "../Components/Title";
 import ImageSection from "../Components/ImageSection";
 import SkillsSection from "../Components/SkillsSection";
+import ServicesSection from "../Components/ServicesSection";
+import design from '../img/design.svg';
 
 function AboutPage() {
   return (
@@ -9,7 +11,7 @@ function AboutPage() {
       <Title title={"About Me"} span={"About Me"} />
       <ImageSection />
       <Title title={"My Skills"} span={"My Skills"} />
-      <div className="skills-container">
+      <div className="skillsContainer">
         <SkillsSection skill={"Javascript"} progress={"50%"} width={"50%"} />
         <SkillsSection skill={"HTML"} progress={"70%"} width={"70%"} />
         <SkillsSection skill={"CSS"} progress={"70%"} width={"70%"} />
@@ -21,8 +23,20 @@ function AboutPage() {
 
 
       </div>
+    <div className='services-container'>
+      <ServicesSection image={design} title={'Web Design'} text={'Lorem ipsum dolor sit amet, consectetur adiposcing elit. Aenean nec maxiomus arcu.'}/>
+
+      <ServicesSection image={design} title={'Web Design'} text={'Lorem ipsum dolor sit amet, consectetur adiposcing elit. Aenean nec maxiomus arcu.'}/>   
+      <ServicesSection image={design} title={'Web Design'} text={'Lorem ipsum dolor sit amet, consectetur adiposcing elit. Aenean nec maxiomus arcu.'}/>
+      
+
+    </div>
     </div>
   );
 }
 
 export default AboutPage;
+
+
+
+
