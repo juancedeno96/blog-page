@@ -3,7 +3,9 @@ import Title from "../Components/Title";
 import ImageSection from "../Components/ImageSection";
 import SkillsSection from "../Components/SkillsSection";
 import ServicesSection from "../Components/ServicesSection";
-import design from '../img/design.svg';
+import design from "../img/design.svg";
+import intelligence from "../img/intelligence.svg";
+import gamedev from "../img/game-dev.svg";
 
 function AboutPage() {
   return (
@@ -19,24 +21,35 @@ function AboutPage() {
         <SkillsSection skill={"Node JS"} progress={"70%"} width={"70%"} />
         <SkillsSection skill={"Express"} progress={"80%"} width={"80%"} />
         <SkillsSection skill={"PostgreSQL"} progress={"60%"} width={"60%"} />
-
-
-
       </div>
-    <div className='services-container'>
-      <ServicesSection image={design} title={'Web Design'} text={'Lorem ipsum dolor sit amet, consectetur adiposcing elit. Aenean nec maxiomus arcu.'}/>
+      <Title title={"Services"} span={"Services"} />
 
-      <ServicesSection image={design} title={'Web Design'} text={'Lorem ipsum dolor sit amet, consectetur adiposcing elit. Aenean nec maxiomus arcu.'}/>   
-      <ServicesSection image={design} title={'Web Design'} text={'Lorem ipsum dolor sit amet, consectetur adiposcing elit. Aenean nec maxiomus arcu.'}/>
-      
+      <div className="services-container">
+        <ServicesSection
+          image={design}
+          title={"Web Design"}
+          text={
+            "Lorem ipsum dolor sit amet, consectetur adiposcing elit. Aenean nec maxiomus arcu."
+          }
+        />
 
-    </div>
+        <ServicesSection
+          image={intelligence}
+          title={"Artificial Intelligence"}
+          text={
+            "Lorem ipsum dolor sit amet, consectetur adiposcing elit. Aenean nec maxiomus arcu."
+          }
+        />
+        <ServicesSection
+          image={gamedev}
+          title={"Game Development"}
+          text={
+            "Lorem ipsum dolor sit amet, consectetur adiposcing elit. Aenean nec maxiomus arcu."
+          }
+        />
+      </div>
     </div>
   );
 }
 
 export default AboutPage;
-
-
-
-
