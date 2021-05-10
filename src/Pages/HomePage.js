@@ -2,9 +2,7 @@ import React from "react";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -23,15 +21,27 @@ function HomePage() {
           Fusce et pretium elit.
         </p>
         <div className="icons">
-          <Link className="icon-holder">
+          <a
+            className="icon-holder"
+            href="https://www.instagram.com/juancede25/"
+            target="_blank"
+          >
             <FontAwesomeIcon icon={faInstagram} className="icon ig" />
-          </Link>
-          <Link className="icon-holder">
+          </a>
+          <a
+            className="icon-holder"
+            href="https://github.com/juancedeno96"
+            target="_blank"
+          >
             <FontAwesomeIcon icon={faGithub} className="icon gh" />
-          </Link>
-          <Link className="icon-holder">
+          </a>
+          <a
+            className="icon-holder"
+            href="https://www.linkedin.com/in/juan-cedeno/"
+            target="_blank"
+          >
             <FontAwesomeIcon icon={faLinkedin} className="icon li" />
-          </Link>
+          </a>
         </div>
       </header>
     </div>
