@@ -6,10 +6,11 @@
     width: 100%;
     height: 50vh;
     img {
-      width: 300px;
-      height: 400px;
+      width: 100%;
+      height: 100%;
       object-fit: cover;
     }
+    
   }
 
   .about-info {
@@ -21,6 +22,14 @@
       padding: 1rem 0;
     }
   }
+  @media screen and (max-width: 1400px) {
+    flex-direction: column;
+    .about-info{
+      margin-left: 0;
+      margin-top: 1rem;
+    }
+  }
+  
 }
 
 .about-details {
@@ -64,42 +73,41 @@
   grid-template-columns: repeat(2, 1fr);
   column-gap: 4rem;
   row-gap: 3rem;
-  margin: 4rem 0; 
+  margin: 4rem 0;
+  @media screen and (max-width: 1100px) {
+   grid-template-columns: repeat(1, 1fr);
+  }
 }
 
-.btn-port{
-padding: .6rem 2rem;
-background-color: #0381ff52;
-border: none;
-outline: none;
-cursor: pointer;
-font-size: inherit;
-font-family: inherit;
-color: white;
-margin-bottom: 1rem;
-transition: all .3s ease-in-out;
-&:not(:last-child){
-  margin-right: 1rem;
-}
-&:hover{
-  background-color: #037fff;
-}
-&:active{
-  background-color: #037fff;
-
-}
-&:focus{
-  background-color: #037fff;
-
-}
-
+.btn-port {
+  padding: 0.6rem 2rem;
+  background-color: #0381ff52;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+  color: white;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease-in-out;
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
+  &:hover {
+    background-color: #037fff;
+  }
+  &:active {
+    background-color: #037fff;
+  }
+  &:focus {
+    background-color: #037fff;
+  }
 }
 
-.buttons{
+.buttons {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 4rem 10rem;
   flex-wrap: wrap;
-
 }
