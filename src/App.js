@@ -32,19 +32,19 @@ function App() {
               <HomePage />
             </Route>
 
-            <Route path="/about" exact>
+            <Route path="/about">
               <AboutPage />
             </Route>
 
-            <Route path="/portfolios" exact>
+            <Route path="/portfolios" >
               <PortfoliosPage />
             </Route>
 
-            <Route path="/blogs" exact>
+            <Route path="/blogs">
               <BlogsPage />
             </Route>
 
-            <Route path="/contact" exact>
+            <Route path="/contact">
               <ContactPage />
             </Route>
           </Switch>

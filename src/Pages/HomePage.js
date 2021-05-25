@@ -13,12 +13,7 @@ function HomePage() {
           <span> Juan Cedeno</span>
         </h1>
         <p className="h-sub-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec
-          maximus arcu. Phasellus et elit elit. Maecenas sed sodales dolor,
-          placerat scelerisque eros. Proin non venenatis lacus. Aliquam blandit
-          egestas arcu, in molestie justo bibendum ac. Maecenas cursus rutrum
-          odio, ut iaculis sapien. Nam sit amet ultrices nibh, at congue magna.
-          Fusce et pretium elit.
+          I am a web developer with knowledge of several technologies including ReactJs, Express, Nodejs, PostgresQL, Javascript, HTML, CSS, Bcryptjs, Massive, Redux, Axios and 
         </p>
         <div className="icons">
           <a
