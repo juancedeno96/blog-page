@@ -13,7 +13,7 @@ function HomePage() {
           <span> Juan Cedeno</span>
         </h1>
         <p className="h-sub-text">
-          I am a web developer with knowledge in several technologies including ReactJs, Express, Nodejs, PostgresQL, Javascript, HTML, CSS, SCSS, Bcryptjs, Massive, Redux, and counting.
+          I am a web developer with knowledge in several technologies including ReactJs, Express, Nodejs, PostgresQL, Javascript, HTML, CSS, SCSS, Bcryptjs, Massive, Redux and axios.
         </p>
         <div className="icons">
           <a
