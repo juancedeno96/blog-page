@@ -12,9 +12,7 @@ function ImageSection() {
           I am<span> Juan Cedeno</span>
         </h4>
         <p className="about-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec
-          maximus arcu. Phasellus et elit elit. Maecenas sed sodales dolor,
-          placerat scelerisque eros.
+          I am a fullstack web developer that employs technologies such as Reactjs, PostgreSQL, Nodejs, Express, HTML/CSS, and others. I graduated from DevMountain coding bootcamp in Lehi, UT in March 2021.
         </p>
         <div className="about-details">
           <div className="left-section">

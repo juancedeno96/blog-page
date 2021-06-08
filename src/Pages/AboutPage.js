@@ -22,30 +22,30 @@ function AboutPage() {
         <SkillsSection skill={"Express"} progress={"80%"} width={"80%"} />
         <SkillsSection skill={"PostgreSQL"} progress={"60%"} width={"60%"} />
       </div>
-      <Title title={"Services"} span={"Services"} />
+      <Title title={"Main Coding Interests"} span={"Main Coding Interests"} />
 
       <div className="services-container">
         <ServicesSection
           image={design}
           title={"Web Design"}
-          text={
-            "Lorem ipsum dolor sit amet, consectetur adiposcing elit. Aenean nec maxiomus arcu."
-          }
+          // text={
+          //   // "Lorem ipsum dolor sit amet, consectetur adiposcing elit. Aenean nec maxiomus arcu."
+          // }
         />
 
         <ServicesSection
           image={intelligence}
           title={"Artificial Intelligence"}
-          text={
-            "Lorem ipsum dolor sit amet, consectetur adiposcing elit. Aenean nec maxiomus arcu."
-          }
+          // text={
+          //   "Lorem ipsum dolor sit amet, consectetur adiposcing elit. Aenean nec maxiomus arcu."
+          // }
         />
         <ServicesSection
           image={gamedev}
           title={"Game Development"}
-          text={
-            "Lorem ipsum dolor sit amet, consectetur adiposcing elit. Aenean nec maxiomus arcu."
-          }
+          // text={
+          //   "Lorem ipsum dolor sit amet, consectetur adiposcing elit. Aenean nec maxiomus arcu."
+          // }
         />
       </div>
     </div>

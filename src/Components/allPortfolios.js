@@ -1,5 +1,5 @@
 import port1 from "../img/portImages/maya-1.jpg";
-import port2 from "../img/portImages/port1.jpg";
+import todoList from '../img/todo-list.png'
 import port3 from "../img/portImages/port2.jpg";
 import port4 from "../img/portImages/port3.jpg";
 import port6 from "../img/portImages/port5.jpg";
@@ -9,7 +9,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 const portfolios = [
   {
     id: 1,
-    category: "Animation",
+    category: "React Js",
     link1: "www.youtube.com",
     link2: "www.github.com",
     icon1: "G",
@@ -25,7 +25,7 @@ const portfolios = [
     link2: "www.github.com",
     icon1: "G",
     icon2: "Y",
-    image: port2,
+    image: todoList,
     title: "Todo-List",
     description: "Todo list created with React",
   },
@@ -75,7 +75,7 @@ const portfolios = [
   },
   {
     id: 7,
-    category: "Test Port",
+    category: "React Js",
     link1: "www.youtube.com",
     link2: "www.github.com",
     icon1: "G",

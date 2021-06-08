@@ -88,6 +88,7 @@
   font-size: inherit;
   font-family: inherit;
   color: white;
+  z-index: 10;
   margin-bottom: 1rem;
   transition: all 0.3s ease-in-out;
   &:not(:last-child) {
