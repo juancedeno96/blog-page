@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/blog-page/static/css/main.74ff52c1.chunk.css",
-    "main.js": "/blog-page/static/js/main.0e017ca6.chunk.js",
-    "main.js.map": "/blog-page/static/js/main.0e017ca6.chunk.js.map",
+    "main.js": "/blog-page/static/js/main.9f30eaf0.chunk.js",
+    "main.js.map": "/blog-page/static/js/main.9f30eaf0.chunk.js.map",
     "runtime-main.js": "/blog-page/static/js/runtime-main.9f0098b0.js",
     "runtime-main.js.map": "/blog-page/static/js/runtime-main.9f0098b0.js.map",
     "static/js/2.ca1e2cfd.chunk.js": "/blog-page/static/js/2.ca1e2cfd.chunk.js",
@@ -21,11 +21,11 @@
     "static/media/blog5.2599a6b1.svg": "/blog-page/static/media/blog5.2599a6b1.svg",
     "static/media/design.8ecb3043.svg": "/blog-page/static/media/design.8ecb3043.svg",
     "static/media/App.scss": "/blog-page/static/media/dots.9978678b.svg",
+    "static/media/ec-home.a6ff7f64.png": "/blog-page/static/media/ec-home.a6ff7f64.png",
     "static/media/emailme.a60657eb.svg": "/blog-page/static/media/emailme.a60657eb.svg",
     "static/media/game-dev.20147858.svg": "/blog-page/static/media/game-dev.20147858.svg",
     "static/media/intelligence.11bd2ab2.svg": "/blog-page/static/media/intelligence.11bd2ab2.svg",
     "static/media/location.5cd6776e.svg": "/blog-page/static/media/location.5cd6776e.svg",
-    "static/media/maya-1.f370e251.jpg": "/blog-page/static/media/maya-1.f370e251.jpg",
     "static/media/phone.ef86e22a.svg": "/blog-page/static/media/phone.ef86e22a.svg",
     "static/media/port2.4aa0b2ba.jpg": "/blog-page/static/media/port2.4aa0b2ba.jpg",
     "static/media/port3.7f41458f.jpg": "/blog-page/static/media/port3.7f41458f.jpg",
@@ -37,6 +37,6 @@
     "static/js/runtime-main.9f0098b0.js",
     "static/js/2.ca1e2cfd.chunk.js",
     "static/css/main.74ff52c1.chunk.css",
-    "static/js/main.0e017ca6.chunk.js"
+    "static/js/main.9f30eaf0.chunk.js"
   ]
 }
