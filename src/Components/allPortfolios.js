@@ -1,5 +1,6 @@
 import todoList from "../img/todo-list.png";
 import ec_home from "../img/ec-home.png";
+import bandSocial from '../img/band-social.png'
 import port3 from "../img/portImages/port2.jpg";
 import port4 from "../img/portImages/port3.jpg";
 import port6 from "../img/portImages/port5.jpg";
@@ -48,7 +49,7 @@ const portfolios = [
     icon1: "G",
     icon2: "Y",
     image: port4,
-    title: "Vanilla Javascript Website",
+    title: "Band Social",
     description: "test",
   },
   {
@@ -76,13 +77,13 @@ const portfolios = [
   {
     id: 7,
     category: "React Js",
-    link1: "www.youtube.com",
+    link1: "https://github.com/Hobby-Social-Media-wr8/hobby-social-media-wr8",
     link2: "www.github.com",
     icon1: "G",
     icon2: "Y",
-    image: port4,
-    title: "Vanilla Javascript Website",
-    description: "test",
+    image: bandSocial,
+    title: "Band Social",
+    description: "Social Media app for Bands looking to connect",
   },
 ];
 
