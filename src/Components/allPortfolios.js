@@ -1,7 +1,7 @@
 import todoList from "../img/todo-list.png";
 import ec_home from "../img/ec-home.png";
 import bandSocial from '../img/band-social.png'
-import port3 from "../img/portImages/port2.jpg";
+import kaboom from '../img/kaboom.png'
 import port4 from "../img/portImages/port3.jpg";
 import port6 from "../img/portImages/port5.jpg";
 import port7 from "../img/portImages/port6.jpg";
@@ -37,7 +37,7 @@ const portfolios = [
     link2: "www.github.com",
     icon1: faGithub,
     icon2: "Y",
-    image: port3,
+    image: kaboom,
     title: "Kaboom Game",
     description: "Simple Kaboom.Js game ",
   },
