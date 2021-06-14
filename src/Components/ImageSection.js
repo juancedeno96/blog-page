@@ -12,7 +12,7 @@ function ImageSection() {
           I am<span> Juan Cedeno</span>
         </h4>
         <p className="about-text">
-          I am a fullstack web developer that employs technologies such as Reactjs, PostgreSQL, Nodejs, Express, HTML/CSS, and others. I graduated from DevMountain coding bootcamp in Lehi, UT in March 2021.
+        I love finding solutions to complex problems, and building effective and efficient apps. When I'm not coding I love to play sports and jam out with a guitar.
         </p>
         <div className="about-details">
           <div className="left-section">
@@ -28,7 +28,10 @@ function ImageSection() {
             <p> Spanish, English</p>
           </div>
         </div>
-        <button className='btn'>Download CV</button>
+        <button className='btn'>
+          <a style={{textDecoration: 'none'}}
+          href='https://docs.google.com/document/d/ 17EIUyZBOoWYeqGyCbUpOWYMilo-dQcf4Gtv5GueQVac/edit' >View Resume</a></button>
+
 
       </div>
     </div>

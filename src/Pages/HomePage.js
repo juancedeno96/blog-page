@@ -10,10 +10,11 @@ function HomePage() {
       <header className="hero">
         <h1 className="hero-text">
           Hi, I am
-          <span> Juan Cedeno</span>
+          <span> Juan Cedeno </span>
+          and I am a web developer
         </h1>
         <p className="h-sub-text">
-          I am a web developer with knowledge in several technologies including ReactJs, Express, Nodejs, PostgresQL, Javascript, HTML, CSS, SCSS, Bcryptjs, Massive, Redux and axios.
+        I am a web developer with knowledge in several technologies including ReactJs, Express, Nodejs, PostgresQL, HTML, CSS, SCSS, Bcryptjs, Massive, Redux and Axios among others.
         </p>
         <div className="icons">
           <a
