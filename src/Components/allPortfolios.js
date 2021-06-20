@@ -2,7 +2,7 @@ import todoList from "../img/todo-list.png";
 import ec_home from "../img/ec-home.png";
 import bandSocial from '../img/band-social.png'
 import kaboom from '../img/kaboom.png'
-import port4 from "../img/portImages/port3.jpg";
+import taleSite from "../img/tale-site.png";
 import port6 from "../img/portImages/port5.jpg";
 import port7 from "../img/portImages/port6.jpg";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -43,39 +43,18 @@ const portfolios = [
   },
   {
     id: 4,
-    category: "Javascript",
-    link1: "www.youtube.com",
+    category: "React Js",
+    link1: "https://github.com/juancedeno96/social-media-app",
     link2: "www.github.com",
     icon1: "G",
     icon2: "Y",
-    image: port4,
-    title: "Band Social",
+    image: taleSite,
+    title: "Tale Social Media Site",
     description: "test",
   },
+
   {
     id: 5,
-    category: "React Js",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
-    icon1: "G",
-    icon2: "Y",
-    image: port6,
-    title: "Getting Started With React",
-    description: "test",
-  },
-  {
-    id: 6,
-    category: "React Js",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
-    icon1: "G",
-    icon2: "Y",
-    image: port7,
-    title: "Vanilla Javascript Website",
-    description: "test",
-  },
-  {
-    id: 7,
     category: "React Js",
     link1: "https://github.com/Hobby-Social-Media-wr8/hobby-social-media-wr8",
     link2: "www.github.com",
