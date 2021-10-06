@@ -30,7 +30,7 @@ function ImageSection() {
         </div>
         <button className='btn'>
           <a style={{textDecoration: 'none'}}
-          href='https://docs.google.com/document/d/ 17EIUyZBOoWYeqGyCbUpOWYMilo-dQcf4Gtv5GueQVac/edit' >View Resume</a></button>
+          href='https://docs.google.com/document/d/17EIUyZBOoWYeqGyCbUpOWYMilo-dQcf4Gtv5GueQVac/edit?usp=sharing' >View Resume</a></button>
 
 
       </div>
