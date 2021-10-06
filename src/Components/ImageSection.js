@@ -29,8 +29,8 @@ function ImageSection() {
           </div>
         </div>
         <button className='btn'>
-          <a style={{textDecoration: 'none'}}
-          href='https://docs.google.com/document/d/17EIUyZBOoWYeqGyCbUpOWYMilo-dQcf4Gtv5GueQVac/edit?usp=sharing' >View Resume</a></button>
+          <a style={{textDecoration: 'none'}} 
+          href='https://docs.google.com/document/d/17EIUyZBOoWYeqGyCbUpOWYMilo-dQcf4Gtv5GueQVac/edit?usp=sharing' target='_blank' >View Resume</a></button>
 
 
       </div>
