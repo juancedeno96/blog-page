@@ -28,13 +28,12 @@ function ContactPage() {
           <ContactItem
             icon={phone}
             text1={"801-592-6824"}
-            text2={"801-602-8363"}
+            // text2={"801-602-8363"}
             title={"Phone"}
           />
           <ContactItem
             icon={email}
             text1={"cedenojj7@gmail.com"}
-            text2={"juantxis0196@hotmail.com"}
             title={"Email"}
           />
           <ContactItem

@@ -22,7 +22,7 @@ function AboutPage() {
         <SkillsSection skill={"Express"} progress={"80%"} width={"80%"} />
         <SkillsSection skill={"PostgreSQL"} progress={"60%"} width={"60%"} />
       </div>
-      <Title title={"Main Coding Interests"} span={"Main Coding Interests"} />
+      {/* <Title title={"Main Coding Interests"} span={"Main Coding Interests"} />
 
       <div className="services-container">
         <ServicesSection
@@ -47,7 +47,7 @@ function AboutPage() {
           //   "Lorem ipsum dolor sit amet, consectetur adiposcing elit. Aenean nec maxiomus arcu."
           // }
         />
-      </div>
+      </div> */}
     </div>
   );
 }

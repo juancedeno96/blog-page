@@ -17,13 +17,13 @@ function HomePage() {
         I am a web developer with knowledge in several technologies including ReactJs, Express, Nodejs, PostgresQL, HTML, CSS, SCSS, Bcryptjs, Massive, Redux and Axios among others.
         </p>
         <div className="icons">
-          <a
+          {/* <a
             className="icon-holder"
             href="https://www.instagram.com/juancede25/"
             target="_blank"
           >
             <FontAwesomeIcon icon={faInstagram} className="icon ig" />
-          </a>
+          </a> */}
           <a
             className="icon-holder"
             href="https://github.com/juancedeno96"
