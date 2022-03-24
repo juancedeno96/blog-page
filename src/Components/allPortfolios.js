@@ -1,8 +1,9 @@
 import todoList from "../img/todo-list.png";
 import ec_home from "../img/ec-home.png";
-import bandSocial from '../img/band-social.png'
-import kaboom from '../img/kaboom.png'
+import bandSocial from "../img/band-social.png";
+import kaboom from "../img/kaboom.png";
 import taleSite from "../img/tale-site.png";
+import OtpDemo from "../img/OTP-demo.png";
 import port6 from "../img/portImages/port5.jpg";
 import port7 from "../img/portImages/port6.jpg";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -17,7 +18,7 @@ const portfolios = [
     icon2: "Y",
     image: ec_home,
     title: "Ecuadorian Food Ordering App",
-    description: "test",
+    description: "App to order Ecuadorian food",
   },
   {
     id: 2,
@@ -63,6 +64,17 @@ const portfolios = [
     image: bandSocial,
     title: "Band Social",
     description: "Social Media app for Bands looking to connect",
+  },
+  {
+    id: 6,
+    category: "React Js",
+    link1: "http://143.198.137.118:4000/",
+    link2: "www.github.com",
+    icon1: "G",
+    icon2: "Y",
+    image: OtpDemo,
+    title: "OTP Demo Site",
+    description: "Demo for SMS One Time Password",
   },
 ];
 
